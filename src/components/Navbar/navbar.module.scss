@@ -1,0 +1,62 @@
+.containerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 4rem;
+  padding: 2rem;
+  background-color: var(--bg-color-gray);
+  width: 100%;
+
+  .logo {
+    letter-spacing: .313rem;
+
+    a{
+      color: inherit;
+    }
+  }
+
+  nav {
+
+    .menuList {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+
+      .itemMenu {
+        position: relative;
+        padding: 1rem 0;
+        cursor: pointer;
+
+        a {
+          color: #000;
+          font-family: 700;
+        }
+
+
+        &::before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          border-radius: 4px;
+          background-color: #18272F;
+          bottom: 0;
+          left: 0;
+          transform-origin: right;
+          transform: scaleX(0);
+          transition: transform .3s ease-in-out;
+        }
+
+        &:hover::before {
+          transform-origin: left;
+          transform: scaleX(1);
+        }
+
+      }
+
+
+
+    }
+  }
+
+}

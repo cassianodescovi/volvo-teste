@@ -1,0 +1,31 @@
+.containerInfo {
+  color: rgba(0, 0, 0, 0.64);
+  line-height: 150%;
+  margin-bottom: 2rem;
+
+  .type {
+
+    font-weight: 500;
+    font-size: 0.75rem;
+
+  }
+
+  .content {
+    display: flex;
+    font-size: 1rem;
+    gap: .5rem;
+
+  }
+
+  .price{
+    font-size: 0.75rem;
+
+    span{
+      font-weight: 700;
+    }
+  }
+
+  &:hover {
+    color: #2D629F;
+  }
+}

@@ -1,0 +1,61 @@
+[
+   
+    {
+      "id": "xc60-recharge",
+      "modelName": "XC60 Recharge", 
+      "bodyType": "suv",
+      "modelType": "plug-in hybrid",
+      "imageUrl": "/images/xc60_recharge.jpg",
+      "price":"486.950"
+    },
+    {
+      "id": "xc40-recharge",
+      "modelName": "XC40 Recharge", 
+      "bodyType": "suv",
+      "modelType": "plug-in hybrid",
+      "imageUrl": "/images/xc40_recharge.jpg",
+      "price":"469.950"
+
+    },
+    {
+      "id": "xc40-bev",
+      "modelName": "XC40 Recharge", 
+      "bodyType": "suv",
+      "modelType": "pure electric",
+      "imageUrl": "/images/xc40_bev.jpg",
+      "price":"329.950"
+    },
+    {
+      "id": "v90-recharge",
+      "modelName": "V90 Recharge", 
+      "bodyType": "estate",
+      "modelType": "plug-in hybrid",
+      "imageUrl": "/images/v90_recharge.jpg",
+      "price":"449.950"
+    },
+    {
+      "id": "v60-recharge",
+      "modelName": "V60 Recharge", 
+      "bodyType": "estate",
+      "modelType": "plug-in hybrid",
+      "imageUrl": "/images/v60_recharge.jpg",
+      "price":"489.950"
+    },
+    {
+      "id": "s90-recharge",
+      "modelName": "S90 Recharge", 
+      "bodyType": "sedan",
+      "modelType": "plug-in hybrid",
+      "imageUrl": "/images/s90_recharge.jpg",
+      "price":"499.950"
+
+    },
+    {
+      "id": "s60-recharge",
+      "modelName": "S60 Recharge", 
+      "bodyType": "sedan",
+      "modelType": "plug-in hybrid",
+      "imageUrl": "/images/s60_recharge.jpg",
+      "price":"489.950"
+    }
+]
